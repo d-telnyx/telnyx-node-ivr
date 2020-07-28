@@ -1,0 +1,27 @@
+{
+  "name": "telnyx-demo-ivr",
+  "version": "1.0.0",
+  "description": "Demo IVR with Telnyx",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "debug": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d-telnyx/telnyx-node-ivr.git"
+  },
+  "author": "DT",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/d-telnyx/telnyx-node-ivr/issues"
+  },
+  "homepage": "https://github.com/d-telnyx/telnyx-node-ivr#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4",
+    "telnyx": "^1.7.2"
+  }
+}
